@@ -7,7 +7,7 @@ class Program
         Aniversarios aniversarios = new();
         aniversarios.Incluir(new DateTime(1974, 4, 25));
 
-        Playlist playlist = new Playlist();
+        Playlist playlist = new();
         playlist.Incluir(new Musica("Blood Brothers", "Iron Maiden"));
 
         PerfisTwitter perfis = new();
